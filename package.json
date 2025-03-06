@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
+    "cleanall": "npm ci && npm --prefix client run clean && npm --prefix server run clean",
     "start": "npm run client:build && npm run server",
     "start:dev": "concurrently \"npm run server:dev\" \"wait-on tcp:3001 && npm run client:dev\"",
     "server": "cd server && npm start",

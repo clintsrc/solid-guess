@@ -1,3 +1,6 @@
+# incremental build tracking
+*.tsbuildinfo
+
 # Logs
 logs
 *.log
