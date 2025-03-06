@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "cleanall": "npm ci && npm --prefix client run clean && npm --prefix server run clean",
+    "cypress": "npx cypress open",
     "start": "npm run client:build && npm run server",
     "start:dev": "concurrently \"npm run server:dev\" \"wait-on tcp:3001 && npm run client:dev\"",
     "server": "cd server && npm start",
@@ -14,7 +15,8 @@
     "client:dev": "cd client && npm run dev",
     "build": "cd server && npm run build",
     "seed": "cd server && npm run seed",
-    "render-build": "npm install && npm run build"
+    "render-build": "npm install && npm run build",
+    "test": "npx cypress run --browser electron --headless"
   },
   "keywords": [],
   "author": "",
