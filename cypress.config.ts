@@ -12,7 +12,8 @@ export default defineConfig({
   },
 
   e2e: {
-    baseUrl: "http://localhost:3001",
+    // baseUrl uses the frontend (vite) testing (dev mode only, of course!)
+    baseUrl: "http://localhost:3000",
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
