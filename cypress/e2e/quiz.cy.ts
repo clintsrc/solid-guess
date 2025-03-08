@@ -1,17 +1,15 @@
-//import { mockState } from "../support/utils/helpers";
+import { Question, Responses } from "../support/types";
 
 describe("Tech Quiz Game", () => {
   context("Game Setup", () => {
     beforeEach(() => {
-      // // Stub the API request for starting the game
-      // cy.intercept("GET", "/api/questions/random", {
-      //   statusCode: 200,
-      //   body: mockState, // Using the mocked guess data
-      // }).as("getRandomQ");
-      // Wait for the API call to complete
-      //cy.wait("@getRandomQ").its("response.statusCode").should("eq", 200);
-
-      // Visit the home page before each test
+      cy.fixture<Responses>("question.json").then((questions) => {
+        const mockData: Question = questions[0];
+        cy.intercept("GET", "/api/questions/random", {
+          statusCode: 200,
+          body: [mockData],
+        }).as("getRandomQ");
+      });
       cy.visit("/");
     });
 
@@ -19,22 +17,16 @@ describe("Tech Quiz Game", () => {
       cy.getDataTest("start-quiz").click();
     });
 
-    it.only("intercepts API response with fixture data", () => {
-      cy.fixture("question.json").then((mockData) => {
-        cy.intercept("GET", "/api/questions/random", {
-          statusCode: 200,
-          body: mockData,
-        }).as("getRandomQ");
-      });
-    
+    it("intercepts API response with fixture data", () => {
       cy.getDataTest("start-quiz").click();
-    
+
       // Ensure the API call was intercepted
       cy.wait("@getRandomQ").its("response.statusCode").should("eq", 200);
-    
+
       // Verify a question appears in the UI
-      cy.contains("What does the 'Infinite Improbability Drive' rely on to function?");
+      cy.contains(
+        "What does the 'Infinite Improbability Drive' rely on to function?"
+      );
     });
-    
   });
 });
