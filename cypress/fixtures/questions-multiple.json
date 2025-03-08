@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "605c72ef153207001f3e7f5",
+    "question": "What is the purpose of a GitHub Actions workflow?",
+    "answers": [
+      {
+        "text": "Automates tasks such as build, test, and deployment on GitHub",
+        "isCorrect": true
+      },
+      {
+        "text": "Manages issues and pull requests",
+        "isCorrect": false
+      },
+      {
+        "text": "Monitors the health of your repository",
+        "isCorrect": false
+      },
+      {
+        "text": "Hosts a static website on GitHub Pages",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7f6",
+    "question": "Which file defines the steps in a GitHub Actions workflow?",
+    "answers": [
+      {
+        "text": "The .github/workflows/*.yml file",
+        "isCorrect": true
+      },
+      {
+        "text": "The .github/actions/*.json file",
+        "isCorrect": false
+      },
+      {
+        "text": "The README.md file",
+        "isCorrect": false
+      },
+      {
+        "text": "The settings.yml file",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7f7",
+    "question": "What is a GitHub Actions 'job'?",
+    "answers": [
+      {
+        "text": "A set of steps that are executed on the same runner",
+        "isCorrect": true
+      },
+      {
+        "text": "A command run on your local machine to trigger actions",
+        "isCorrect": false
+      },
+      {
+        "text": "A repository in which workflows are defined",
+        "isCorrect": false
+      },
+      {
+        "text": "A step that installs dependencies in the workflow",
+        "isCorrect": false
+      }
+    ]
+  }
+]

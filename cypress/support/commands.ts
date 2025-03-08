@@ -37,3 +37,15 @@
 // }
 
 import '@testing-library/cypress/add-commands';
+
+declare global {
+  namespace Cypress {
+    interface Chainable {
+      getDataTest(dataTestSelector: string): Chainable<JQuery<HTMLElement>>;
+    }
+  }
+}
+
+Cypress.Commands.add("getDataTest", (dataTestSelector: string) => {
+  return cy.get(`[data-test="${dataTestSelector}"]`);
+});

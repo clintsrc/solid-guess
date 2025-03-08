@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "clean": "rimraf dist/ *.tsbuildinfo",
+    "clean": "rimraf dist ./tsconfig.tsbuildinfo ./tsconfig.node.tsbuildinfo",
     "build": "npx tsc",
     "start": "npm run build && node dist/server.js --ignore client",
     "dev": "npx nodemon",

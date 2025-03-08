@@ -1,5 +1,24 @@
-{
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
-}
+[
+  {
+    "_id": "605c72ef153207001f3e7f5",
+    "question": "What is the purpose of a GitHub Actions workflow?",
+    "answers": [
+      {
+        "text": "Automates tasks such as build, test, and deployment on GitHub",
+        "isCorrect": true
+      },
+      {
+        "text": "Manages issues and pull requests",
+        "isCorrect": false
+      },
+      {
+        "text": "Monitors the health of your repository",
+        "isCorrect": false
+      },
+      {
+        "text": "Hosts a static website on GitHub Pages",
+        "isCorrect": false
+      }
+    ]
+  }
+]
