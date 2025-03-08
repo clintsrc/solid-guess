@@ -20,7 +20,7 @@ describe("Tech Quiz Game", () => {
     });
 
     it.only("intercepts API response with fixture data", () => {
-      cy.fixture("questions.json").then((mockData) => {
+      cy.fixture("question.json").then((mockData) => {
         cy.intercept("GET", "/api/questions/random", {
           statusCode: 200,
           body: mockData,
@@ -33,7 +33,7 @@ describe("Tech Quiz Game", () => {
       cy.wait("@getRandomQ").its("response.statusCode").should("eq", 200);
     
       // Verify a question appears in the UI
-      cy.contains("What is the purpose of a GitHub Actions workflow?");
+      cy.contains("What does the 'Infinite Improbability Drive' rely on to function?");
     });
     
   });

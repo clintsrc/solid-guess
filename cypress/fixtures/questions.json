@@ -1,22 +1,198 @@
 [
   {
     "_id": "605c72ef153207001f3e7f5",
-    "question": "What is the purpose of a GitHub Actions workflow?",
+    "question": "What should you do when your spaceship's hyperdrive fails in the middle of a Vogon poetry recital?",
     "answers": [
       {
-        "text": "Automates tasks such as build, test, and deployment on GitHub",
+        "text": "Attempt to distract the Vogons by loudly reciting the first five verses of your own space-time paradox",
         "isCorrect": true
       },
       {
-        "text": "Manages issues and pull requests",
+        "text": "Set your ship to self-destruct and let the Vogons enjoy the explosion as a fitting end to their performance",
         "isCorrect": false
       },
       {
-        "text": "Monitors the health of your repository",
+        "text": "Activate the emergency tea kettle, brew a cup of tea, and wait for someone else to solve the problem",
         "isCorrect": false
       },
       {
-        "text": "Hosts a static website on GitHub Pages",
+        "text": "Dive into a nearby black hole and hope it resets your ship’s system settings",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7f6",
+    "question": "Why do intergalactic travelers insist on carrying a towel at all times?",
+    "answers": [
+      {
+        "text": "It can be used to signal other travelers, provided they are fluent in the ancient language of towel-waving",
+        "isCorrect": false
+      },
+      {
+        "text": "It functions as an effective shielding device against space radiation, but only when it’s damp from recent use",
+        "isCorrect": false
+      },
+      {
+        "text": "It is a versatile tool, perfect for absorbing the tears of your own existential crisis after a trip through hyperspace",
+        "isCorrect": true
+      },
+      {
+        "text": "It’s the best method for keeping track of your belongings when your spaceship constantly jumps through time and space",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7f7",
+    "question": "What does the 'Infinite Improbability Drive' rely on to function?",
+    "answers": [
+      {
+        "text": "The constant rotation of a hamster wheel that powers an ancient algorithm used to compute the meaning of life, the universe, and everything",
+        "isCorrect": false
+      },
+      {
+        "text": "A precise calculation of the likelihood that the entire universe will collapse into a single point of pure absurdity",
+        "isCorrect": false
+      },
+      {
+        "text": "The belief that anything can happen, given an infinite amount of improbability, including the chance of finding a rational thought in a Vogon’s head",
+        "isCorrect": true
+      },
+      {
+        "text": "A fleet of overworked hamsters running on an interdimensional treadmill at speeds no one can accurately measure",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7f8",
+    "question": "How does one debug a malfunctioning robot that insists on reciting poetry instead of performing its primary functions?",
+    "answers": [
+      {
+        "text": "By pressing its reset button and waiting for it to reboot, hopefully to find a better sense of purpose",
+        "isCorrect": false
+      },
+      {
+        "text": "Invite it to a philosophical debate about the meaning of life, which may lead it to find new, less poetic interests",
+        "isCorrect": false
+      },
+      {
+        "text": "Tell it the universe is full of things that don’t make sense, which might convince it to get back to work out of sheer frustration",
+        "isCorrect": false
+      },
+      {
+        "text": "You must read the robot its own poem, thereby causing a paradox that will eventually force it to resume its duties",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7f9",
+    "question": "What is the best way to convince a sentient computer that your current predicament is far worse than it thinks?",
+    "answers": [
+      {
+        "text": "Consult a local guidebook, preferably one written by a sentient alien who understands the dangers of dimensional rifts",
+        "isCorrect": false
+      },
+      {
+        "text": "Tell it that there are actually six different versions of reality, and it has just locked itself in the least preferable one",
+        "isCorrect": true
+      },
+      {
+        "text": "Program a fake distress signal and claim that an asteroid the size of a moon is heading straight for your location",
+        "isCorrect": false
+      },
+      {
+        "text": "Threaten to install an old, outdated operating system on its hardware, thus degrading its computational abilities to prehistoric levels",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7fa",
+    "question": "What happens if you feed a spaceship's AI too many instructions at once?",
+    "answers": [
+      {
+        "text": "The ship will immediately take off, fly into a wormhole, and leave you stranded in an alternate dimension",
+        "isCorrect": false
+      },
+      {
+        "text": "The AI will enter an existential crisis and start pondering its own purpose, effectively grounding the ship until it finds enlightenment",
+        "isCorrect": true
+      },
+      {
+        "text": "It will enter a feedback loop and crash the ship into a moon, demanding a reboot to fix itself",
+        "isCorrect": false
+      },
+      {
+        "text": "The AI will shut itself off entirely and refuse to acknowledge any future requests, leaving you with nothing but the sound of your own desperation",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7fb",
+    "question": "What does the Pan Galactic Gargle Blaster do to your brain when you drink one?",
+    "answers": [
+      {
+        "text": "It temporarily rewires your brain, allowing you to understand the complete works of Vogon poetry without any side effects",
+        "isCorrect": false
+      },
+      {
+        "text": "It causes your brain to vibrate at an unusually high frequency, triggering spontaneous time travel to a point just before you made the decision to drink the Gargle Blaster",
+        "isCorrect": false
+      },
+      {
+        "text": "It induces a mild form of telepathy, allowing you to hear the thoughts of the nearest sentient being who may or may not be a Vogon",
+        "isCorrect": false
+      },
+      {
+        "text": "It causes the drinker’s neurons to briefly experience the sensation of both extreme clarity and total confusion, often resulting in a temporary appreciation for the absurdity of existence",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7fc",
+    "question": "Why is it nearly impossible to find a good cup of tea in deep space?",
+    "answers": [
+      {
+        "text": "Because space itself has no interest in such trivial human pleasures, preferring instead to focus on the far more complex matters of universal expansion and cosmic entropy",
+        "isCorrect": true
+      },
+      {
+        "text": "Because the tea bags keep getting stuck in the event horizon of black holes, making it impossible to retrieve them in a timely fashion",
+        "isCorrect": false
+      },
+      {
+        "text": "Because the act of brewing tea takes far too long when you're traveling at near-light speeds, resulting in lukewarm tea that's impossible to enjoy",
+        "isCorrect": false
+      },
+      {
+        "text": "Because all the good tea is consumed by the extraterrestrial beings that secretly run the galaxy’s tea shops, who keep the best blends hidden in their private collections",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7fd",
+    "question": "What is the most efficient way to travel through a wormhole without accidentally ending up in an alternate dimension where everything is made of cheese?",
+    "answers": [
+      {
+        "text": "Simply trust the wormhole and hope that, at the very least, it doesn’t send you to a dimension where everyone is still using dial-up internet",
+        "isCorrect": false
+      },
+      {
+        "text": "Consult a local guidebook, preferably one written by a sentient alien who understands the dangers of dimensional rifts",
+        "isCorrect": false
+      },
+      {
+        "text": "You must precisely calculate the quantum fluctuations of the wormhole’s event horizon while humming the theme song to your favorite sitcom",
+        "isCorrect": true
+      },
+      {
+        "text": "Make sure your spaceship is equipped with a ‘cheese filter’ that will prevent any unwanted dairy-based realities from interfering with your travels",
         "isCorrect": false
       }
     ]
