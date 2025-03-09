@@ -17,7 +17,7 @@
     "build": "npm run client:build && npm run server:build",
     "seed": "cd server && npm run seed",
     "render-build": "npm install && npm run build",
-    "test": "npx cypress run --browser electron --headless",
+    "test": "npx cypress run --component && npx cypress run --e2e",
     "test-gui": "npx cypress open --detached"
   },
   "keywords": [],
