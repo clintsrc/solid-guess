@@ -36,21 +36,21 @@
 //   }
 // }
 
-import '@testing-library/cypress/add-commands';
+import "@testing-library/cypress/add-commands";
 
 /*
  * From the spec:
- * Important: You won't need to modify code for the existing application. In this 
+ * Important: You won't need to modify code for the existing application. In this
  * challenge, you'll only be creating tests for the existing application.
- * 
+ *
  * Cypress indicates that it's best practice to use data attributes
  * (ref: https://docs.cypress.io/app/core-concepts/best-practices)
- * 
+ *
  * If the app code had
  *  data-test="start-quiz"
  * You could use this custom command:
  *  cy.getDataTest("start-quiz")
- * 
+ *
  */
 // declare global {
 //   namespace Cypress {
