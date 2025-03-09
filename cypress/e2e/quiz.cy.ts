@@ -14,11 +14,11 @@ describe("Tech Quiz Game", () => {
     });
 
     it("should find the Start Quiz button on the home page", () => {
-      cy.getDataTest("start-quiz").click();
+      cy.contains("button", "Start Quiz").click();
     });
 
     it("intercepts API response with fixture data", () => {
-      cy.getDataTest("start-quiz").click();
+      cy.contains("button", "Start Quiz").click();
 
       // Ensure the API call was intercepted
       cy.wait("@getRandomQ").its("response.statusCode").should("eq", 200);
