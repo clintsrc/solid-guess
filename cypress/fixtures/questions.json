@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "605c72ef153207001f3e7f7",
+    "question": "What does the 'Infinite Improbability Drive' rely on to function?",
+    "answers": [
+      {
+        "text": "The belief that anything can happen, given an infinite amount of improbability, including the chance of finding a rational thought in a Vogon’s head",
+        "isCorrect": true
+      },
+      {
+        "text": "The constant rotation of a hamster wheel that powers an ancient algorithm used to compute the meaning of life, the universe, and everything",
+        "isCorrect": false
+      },
+      {
+        "text": "A precise calculation of the likelihood that the entire universe will collapse into a single point of pure absurdity",
+        "isCorrect": false
+      },
+      {
+        "text": "A fleet of overworked hamsters running on an interdimensional treadmill at speeds no one can accurately measure",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7f8",
+    "question": "How does one debug a malfunctioning robot that insists on reciting poetry instead of performing its primary functions?",
+    "answers": [
+      {
+        "text": "You must read the robot its own poem, thereby causing a paradox that will eventually force it to resume its duties",
+        "isCorrect": true
+      },      
+      {
+        "text": "By pressing its reset button and waiting for it to reboot, hopefully to find a better sense of purpose",
+        "isCorrect": false
+      },
+      {
+        "text": "Invite it to a philosophical debate about the meaning of life, which may lead it to find new, less poetic interests",
+        "isCorrect": false
+      },
+      {
+        "text": "Tell it the universe is full of things that don’t make sense, which might convince it to get back to work out of sheer frustration",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "605c72ef153207001f3e7f9",
+    "question": "What is the best way to convince a sentient computer that your current predicament is far worse than it thinks?",
+    "answers": [
+      {
+        "text": "Tell it that there are actually six different versions of reality, and it has just locked itself in the least preferable one",
+        "isCorrect": true
+      },      
+      {
+        "text": "Consult a local guidebook, preferably one written by a sentient alien who understands the dangers of dimensional rifts",
+        "isCorrect": false
+      },
+      {
+        "text": "Program a fake distress signal and claim that an asteroid the size of a moon is heading straight for your location",
+        "isCorrect": false
+      },
+      {
+        "text": "Threaten to install an old, outdated operating system on its hardware, thus degrading its computational abilities to prehistoric levels",
+        "isCorrect": false
+      }
+    ]
+  }
+]

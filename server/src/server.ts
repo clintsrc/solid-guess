@@ -14,6 +14,7 @@ app.use(express.json());
 app.use(routes);
 
 if (process.env.NODE_ENV === 'production') {
+  console.log("Serving in production mode");
   app.use(express.static(path.join(__dirname, '../client/dist')));
 
    app.get('*', (_req, res) => {
