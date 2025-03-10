@@ -1,18 +1,24 @@
-// cypress/support/types.ts
+/* 
+ * types.d.ts
+ *
+ * Define the interfaces describing the mongo schema for the cypress tests to use
+ * 
+ */
+
 import { Schema } from "mongoose";
 
 interface Answer {
-  text: string; // typically a string for answer text, unless you really intend to use ObjectId
+  text: string;
   isCorrect: boolean;
 }
 
 interface Question {
-  _id: string;
+  _id: Schema.Types.ObjectId; // MongoDB uses hex id values
   question: string;
   answers: Answer[];
 }
 
-// Redefine Responses to be an array of Question objects
+// Redefine Responses as an array of Question objects
 export type Responses = Question[];
 
 export type { Question };

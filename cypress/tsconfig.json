@@ -3,6 +3,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "lib": ["ES2020", "DOM"],
+    /* Add the cypress testing-library for typescript */
     "types": ["cypress", "node", "@testing-library/cypress"],
     "isolatedModules": false,
     "noEmit": true,
@@ -10,5 +11,6 @@
     "jsx": "react-jsx",
     "strict": true
   },
+  /* Be sure to include the path to the components being tested */
   "include": ["**/*.tsx", "**/*.ts", "**/*.js", "**/*.jsx", "../client/src/components/**/*.tsx"]
 }
